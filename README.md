@@ -93,7 +93,7 @@ A parte do SQL dedicada à recuperação e análise de dados: `SELECT` (comando 
 Chave Primária (Primary Key) identifica cada linha de forma única em uma tabela. Chave Estrangeira (Foreign Key) estabelece relacionamento entre duas tabelas, apontando para a chave primária de outra.
 
 **5. Normalização**
-Processo de organizar tabelas para reduzir redundância e prevenir anomalias de inserção, atualização e exclusão, através das formas normais (1NF, 2NF, 3NF, BCNF). A 1NF exige atomicidade dos valores (nada de múltiplos valores numa mesma célula); a 2NF exige que atributos não-chave dependam da chave primária inteira; a 3NF elimina dependências transitivas (quando um atributo não-chave depende de outro atributo não-chave, e não diretamente da chave primária). Em cenários de alta performance, é possível optar pela desnormalização — abrir mão de parte da normalização em troca de consultas mais rápidas, geralmente via Views.
+Processo de organizar tabelas para reduzir redundância e prevenir anomalias de inserção, atualização e exclusão, através das formas normais (1NF, 2NF, 3NF, BCNF). A 1NF exige atomicidade dos valores (nada de múltiplos valores numa mesma célula); a 2NF exige que atributos não-chave dependam da chave primária inteira; a 3NF elimina dependências transitivas (quando um atributo não-chave depende de outro atributo não-chave, e não diretamente da chave primária). Em cenários de alta performance, é possível optar pela desnormalização abrir mão de parte da normalização em troca de consultas mais rápidas, geralmente via Views.
 
 ---
 
@@ -138,5 +138,5 @@ Prompts testados e validados, prontos para reaproveitar em futuras sessões de e
 
 ## ✍️ Autor
 
-**Pablo Henrique** — Estudante de Database Technology 
+**Pablo Henrique** Estudante de Database Technology 
 [LinkedIn](https://www.linkedin.com/in/pablo-henrique-barbosa-silva-53a4a1314) | [GitHub](https://github.com/pablohrnq)

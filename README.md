@@ -1,6 +1,6 @@
 # 📚 Caderno Temático: Fundamentos de SQL/Banco de Dados
 
-> Projeto desenvolvido com o NotebookLM (Google) como parte do desafio **"Treinando uma IA de Aprendizagem"** da DIO — explorando IA como ferramenta ativa de estudo, curadoria de fontes e organização do conhecimento.
+> Projeto desenvolvido com o NotebookLM (Google) como parte do desafio **"Treinando uma IA de Aprendizagem"** da DIO explorando IA como ferramenta ativa de estudo, curadoria de fontes e organização do conhecimento.
 
 ---
 
@@ -8,7 +8,7 @@
 
 **Assunto escolhido:** Fundamentos de SQL e Banco de Dados
 
-**Por que esse tema:** Estou cursando Database Technology e buscando minha primeira oportunidade como analista/estagiário de dados. SQL é uma das competências mais cobradas em processos seletivos da área, e usei o NotebookLM como uma ferramenta de estudo ativo — testando prompts estratégicos para consolidar os fundamentos e validar até onde a IA consegue se manter fiel às fontes carregadas, em vez de simplesmente aceitar respostas prontas.
+**Por que esse tema:** Estou cursando Database Technology e buscando minha primeira oportunidade como analista/estagiário de dados. SQL é uma das competências mais cobradas em processos seletivos da área, e usei o NotebookLM como uma ferramenta de estudo ativo testando prompts estratégicos para consolidar os fundamentos e validar até onde a IA consegue se manter fiel às fontes carregadas, em vez de simplesmente aceitar respostas prontas.
 
 **Objetivos de estudo com este material:**
 - [ ] Consolidar os conceitos fundamentais de SQL (DDL, DML, DQL)
@@ -34,7 +34,7 @@ Fontes abertas selecionadas e carregadas no NotebookLM:
 
 Documentação do processo de testes de prompts no NotebookLM — incluindo o que funcionou, o que precisou de ajuste, e as dificuldades encontradas.
 
-### Prompt 1 — Resumo geral
+### Prompt 1 Resumo geral
 **Prompt usado:**
 > "Resuma os conceitos fundamentais de SQL presentes nas fontes, organizando por: comandos DDL, DML e DQL."
 
@@ -44,7 +44,7 @@ Documentação do processo de testes de prompts no NotebookLM — incluindo o qu
 
 ---
 
-### Prompt 2 — Comparação entre fontes
+### Prompt 2 Comparação entre fontes
 **Prompt usado:**
 > "Compare como as fontes definem e explicam normalização — há diferenças de profundidade ou abordagem entre elas? Alguma fonte trata o assunto de forma mais completa que as outras?"
 
@@ -54,7 +54,7 @@ Documentação do processo de testes de prompts no NotebookLM — incluindo o qu
 
 ---
 
-### Prompt 3 — Aplicação prática (exercícios)
+### Prompt 3 Aplicação prática (exercícios)
 **Prompt usado:**
 > "Crie 5 exercícios práticos de SQL sobre os temas das fontes (DDL, DML, DQL e normalização), com dificuldade crescente. Para cada exercício, inclua a resposta esperada."
 
@@ -64,7 +64,7 @@ Documentação do processo de testes de prompts no NotebookLM — incluindo o qu
 
 ---
 
-### Prompt 4 — Teste de limite / troubleshooting
+### Prompt 4 Teste de limite / troubleshooting
 **Prompt usado:**
 > "Explique o que é uma View em SQL e me dê um exemplo de CREATE VIEW, usando apenas as informações presentes nas fontes carregadas."
 
@@ -80,13 +80,13 @@ Documentação do processo de testes de prompts no NotebookLM — incluindo o qu
 
 ### Resumo Estruturado
 
-**1. DDL — Data Definition Language**
+**1. DDL Data Definition Language**
 Comandos que definem e modificam a estrutura do banco: `CREATE TABLE` (cria tabelas), `ALTER TABLE` (modifica estrutura existente, como adicionar chaves estrangeiras), `DROP TABLE` (exclui permanentemente), `CREATE DATABASE`/`DROP DATABASE` (criam/removem o banco como um todo) e `CREATE INDEX` (cria índices para acelerar buscas).
 
-**2. DML — Data Manipulation Language**
+**2. DML Data Manipulation Language**
 Comandos que gerenciam os dados dentro das estruturas já criadas: `INSERT INTO` (popula tabelas com novas linhas), `UPDATE` (modifica dados existentes) e `DELETE` (remove registros).
 
-**3. DQL — Data Query Language**
+**3. DQL Data Query Language**
 A parte do SQL dedicada à recuperação e análise de dados: `SELECT` (comando base de consulta), `WHERE` (filtra registros), `ORDER BY` (ordena resultados), `JOIN` (combina linhas de tabelas relacionadas — INNER, LEFT, RIGHT, FULL), funções de agregação (`COUNT()`, `SUM()`, `AVG()`, `MIN()`, `MAX()`) e `GROUP BY`/`HAVING` (agrupam e filtram grupos de linhas).
 
 **4. Modelagem Relacional**

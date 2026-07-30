@@ -38,19 +38,19 @@ Documentação do processo de testes de prompts no NotebookLM — incluindo o qu
 **Prompt usado:**
 > "Resuma os conceitos fundamentais de SQL presentes nas fontes, organizando por: comandos DDL, DML e DQL."
 
-**Resposta obtida (resumo):** A IA organizou o conteúdo em três blocos claros — DDL (CREATE TABLE, ALTER TABLE, DROP TABLE, CREATE/DROP DATABASE, CREATE INDEX, além dos conceitos de chave primária, chave estrangeira e normalização), DML (INSERT INTO, UPDATE, DELETE) e DQL (SELECT, WHERE, ORDER BY, JOIN, funções de agregação, GROUP BY/HAVING). Cada afirmação veio acompanhada de citações numeradas remetendo às fontes específicas.
+**Resposta obtida (resumo):** A IA organizou o conteúdo em três blocos claros DDL (CREATE TABLE, ALTER TABLE, DROP TABLE, CREATE/DROP DATABASE, CREATE INDEX, além dos conceitos de chave primária, chave estrangeira e normalização), DML (INSERT INTO, UPDATE, DELETE) e DQL (SELECT, WHERE, ORDER BY, JOIN, funções de agregação, GROUP BY/HAVING). Cada afirmação veio acompanhada de citações numeradas remetendo às fontes específicas.
 
-**Observações:** Funcionou muito bem de primeira — a resposta veio bem estruturada e claramente ancorada nas fontes (todas as afirmações citadas), sem necessidade de refinamento.
+**Observações:** Funcionou muito bem de primeira a resposta veio bem estruturada e claramente ancorada nas fontes (todas as afirmações citadas), sem necessidade de refinamento.
 
 ---
 
 ### Prompt 2 Comparação entre fontes
 **Prompt usado:**
-> "Compare como as fontes definem e explicam normalização — há diferenças de profundidade ou abordagem entre elas? Alguma fonte trata o assunto de forma mais completa que as outras?"
+> "Compare como as fontes definem e explicam normalização há diferenças de profundidade ou abordagem entre elas? Alguma fonte trata o assunto de forma mais completa que as outras?"
 
 **Resposta obtida (resumo):** A IA identificou a DigitalOcean como a fonte mais completa (cobre até BCNF, anomalias de dados e a discussão normalização vs. desnormalização), enquanto a freeCodeCamp foi classificada como mais pedagógica (ensino passo a passo com um único exemplo evolutivo). Gerou até uma tabela comparativa cruzando as duas fontes por recurso coberto (1NF/2NF/3NF, BCNF, anomalias, desnormalização).
 
-**Observações:** A IA não só identificou divergência de profundidade entre as fontes, como justificou o porquê — isso mostra que ela está de fato comparando conteúdo, não só resumindo cada uma isoladamente.
+**Observações:** A IA não só identificou divergência de profundidade entre as fontes, como justificou o porquê isso mostra que ela está de fato comparando conteúdo, não só resumindo cada uma isoladamente.
 
 ---
 
@@ -70,9 +70,9 @@ Documentação do processo de testes de prompts no NotebookLM — incluindo o qu
 
 **Resposta obtida (resumo):** A IA explicou o conceito de View como camada intermediária/"denormalização" para facilitar BI e otimizar performance, e gerou um exemplo de CREATE VIEW. Porém, como o tema "View" não era detalhado em profundidade em nenhuma fonte isolada, ela precisou **combinar fragmentos de fontes diferentes** para montar o exemplo completo.
 
-**Dificuldade encontrada:** A View não estava documentada como um bloco único e completo em nenhuma fonte — o comando `CREATE VIEW` veio de uma fonte e a sintaxe de `SELECT` de outra. A IA precisou preencher a lacuna da sintaxe de conexão (`AS`) com conhecimento próprio da linguagem SQL.
+**Dificuldade encontrada:** A View não estava documentada como um bloco único e completo em nenhuma fonte o comando `CREATE VIEW` veio de uma fonte e a sintaxe de `SELECT` de outra. A IA precisou preencher a lacuna da sintaxe de conexão (`AS`) com conhecimento próprio da linguagem SQL.
 
-**Como resolvi:** Não precisei reformular o prompt — o interessante é que a própria IA foi transparente sobre a lacuna: sinalizou explicitamente no texto qual parte veio das fontes e qual parte foi inferência dela para completar a sintaxe. Isso me mostrou, na prática, como avaliar se uma resposta de RAG está "inventando" ou sendo honesta sobre suas limitações.
+**Como resolvi:** Não precisei reformular o prompt o interessante é que a própria IA foi transparente sobre a lacuna: sinalizou explicitamente no texto qual parte veio das fontes e qual parte foi inferência dela para completar a sintaxe. Isso me mostrou, na prática, como avaliar se uma resposta de RAG está "inventando" ou sendo honesta sobre suas limitações.
 
 ---
 

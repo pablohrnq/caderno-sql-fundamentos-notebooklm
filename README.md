@@ -32,7 +32,7 @@ Fontes abertas selecionadas e carregadas no NotebookLM:
 
 ## 🧪 Engenharia de Prompts e "Cicatrizes"
 
-Documentação do processo de testes de prompts no NotebookLM — incluindo o que funcionou, o que precisou de ajuste, e as dificuldades encontradas.
+Documentação do processo de testes de prompts no NotebookLM incluindo o que funcionou, o que precisou de ajuste, e as dificuldades encontradas.
 
 ### Prompt 1 Resumo geral
 **Prompt usado:**

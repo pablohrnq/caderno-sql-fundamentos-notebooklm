@@ -138,5 +138,5 @@ Prompts testados e validados, prontos para reaproveitar em futuras sessões de e
 
 ## ✍️ Autor
 
-**Pablo Henrique** — Estudante de Database Technology | Em busca de oportunidade como Analista de Dados
+**Pablo Henrique** — Estudante de Database Technology 
 [LinkedIn](https://www.linkedin.com/in/pablo-henrique-barbosa-silva-53a4a1314) | [GitHub](https://github.com/pablohrnq)
